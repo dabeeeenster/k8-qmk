@@ -17,3 +17,4 @@ cp -rp "$subdir" qmk_firmware/keyboards/keychron/k6/keymaps
 (cd qmk_firmware &&
   make -j4 keychron/k6/rgb/ansi:ansi-josh COLOR=false &&
   mv keychron_k6_rgb_ansi_ansi-josh.bin ../build/"keychron-k6-ansi-josh-$TAG.bin")
+
